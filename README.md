@@ -1,12 +1,12 @@
-# Playwright: (CommonJS, Cucumber, and Assert)
+# Playwright: (CommonJS, CucumberJS, and Assert)
 
-[![GitHub Actions status | e2e-boilerplates/playwright-commonjs-cucumber-assert](https://github.com/e2e-boilerplates/playwright-commonjs-cucumber-assert/workflows/playwright-commonjs-cucumber-assert/badge.svg)](https://github.com/e2e-boilerplates/playwright-commonjs-cucumber-assert/actions?workflow=playwright-commonjs-cucumber-assert)
+[![GitHub Actions status | e2e-boilerplates/playwright-commonjs-cucumberjs-assert](https://github.com/e2e-boilerplates/playwright-commonjs-cucumberjs-assert/workflows/playwright-commonjs-cucumberjs-assert/badge.svg)](https://github.com/e2e-boilerplates/playwright-commonjs-cucumberjs-assert/actions?workflow=playwright-commonjs-cucumberjs-assert)
 
-Playwright end-to-end test automation boilerplate, using CommonJS, Cucumber and Assert.
+Playwright end-to-end test automation boilerplate, using CommonJS, CucumberJS and Assert.
 
 ## Getting Started
 
-    git clone git@github.com:e2e-boilerplates/playwright-commonjs-cucumber-assert.git
-    cd playwright-commonjs-cucumber-assert
+    git clone git@github.com:e2e-boilerplates/playwright-commonjs-cucumberjs-assert.git
+    cd playwright-commonjs-cucumberjs-assert
     npm install
     npm run test

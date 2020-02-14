@@ -1,0 +1,33 @@
+name: playwright-commonjs-cucumber-chai
+
+on:
+  push:
+  schedule:
+    - cron: "0 0 1-31/2 * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v1
+      - name: Use Node.js 12.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: "12.x"
+      - name: install required packages
+        run: |
+         sudo apt-get update
+         sudo apt-get install libgbm-dev
+         sudo apt-get install xvfb
+      - name: INSTALL PACKAGES
+        run: |
+          npm ci
+        env:
+          CI: true
+      - name: LINT
+        run: |
+          npm run lint
+      - name: TEST
+        run: |
+          npm run test

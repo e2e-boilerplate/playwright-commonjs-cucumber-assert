@@ -1,5 +1,5 @@
 {
-  "name": "playwright-commonjs-cucumberassert",
+  "name": "playwright-commonjs-cucumber-assert",
   "version": "1.0.0",
   "description": "Playwright end-to-end test automation boilerplate, using CommonJS, Cucumber and Assert.",
   "scripts": {

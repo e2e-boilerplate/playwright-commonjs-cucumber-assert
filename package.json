@@ -1,7 +1,7 @@
 {
-  "name": "playwright-commonjs-cucumber-assert",
+  "name": "playwright-commonjs-cucumberjs-assert",
   "version": "1.0.0",
-  "description": "Playwright end-to-end test automation boilerplate, using CommonJS, Cucumber and Assert.",
+  "description": "Playwright end-to-end test automation boilerplate, using CommonJS, CucumberJS and Assert.",
   "scripts": {
     "test": "./node_modules/.bin/cucumber-js",
     "lint": "npx eslint --ext .js ./ --fix"

@@ -1,4 +1,4 @@
-name: playwright-commonjs-cucumber-assert
+name: playwright-commonjs-cucumberjs-assert
 
 on:
   push:

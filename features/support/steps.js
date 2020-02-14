@@ -7,7 +7,7 @@ const {
   setDefaultTimeout
 } = require("cucumber");
 const { chromium } = require("playwright");
-const { expect } = require("chai");
+const { strictEqual } = require("assert");
 
 let page;
 let browser;
@@ -16,7 +16,7 @@ setDefaultTimeout(50 * 1000);
 
 BeforeAll(async () => {
   browser = process.env.GITHUB_ACTIONS
-    ? await chromium.launch({ headless: true })
+    ? await chromium.launch()
     : await chromium.launch({ headless: false });
   const context = await browser.newContext();
   page = await context.newPage();
@@ -38,10 +38,10 @@ Given("Navigate to the sandbox", async () => {
 
 When("I am on the sandbox page", async () => {
   await page.waitFor("h1");
-  expect(await page.title()).to.equal("Sandbox");
+  strictEqual(await page.title(), "Sandbox");
 });
 
 Then("The page header should be {string}", async header => {
   const title = await page.$eval("h1", el => el.textContent);
-  expect(title).to.equal(header);
+  strictEqual(title, header);
 });

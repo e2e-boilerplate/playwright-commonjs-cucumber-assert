@@ -1,7 +1,7 @@
 {
-  "name": "playwright-commonjs-cucumber-chai",
+  "name": "playwright-commonjs-cucumberassert",
   "version": "1.0.0",
-  "description": "Playwright end-to-end test automation boilerplate, using CommonJS, Cucumber and Chai.",
+  "description": "Playwright end-to-end test automation boilerplate, using CommonJS, Cucumber and Assert.",
   "scripts": {
     "test": "./node_modules/.bin/cucumber-js",
     "lint": "npx eslint --ext .js ./ --fix"
@@ -10,7 +10,7 @@
     "playwright",
     "commonjs",
     "cucumber",
-    "chai",
+    "assert",
     "boilerplate",
     "example"
   ],
@@ -28,7 +28,6 @@
     "pretty-quick": "2.0.1"
   },
   "dependencies": {
-    "chai": "4.2.0",
     "chromedriver": "80.0.1",
     "cucumber": "6.0.5",
     "playwright": "0.10.0"

@@ -1,4 +1,4 @@
-name: playwright-commonjs-cucumber-chai
+name: playwright-commonjs-cucumber-assert
 
 on:
   push:
@@ -17,9 +17,9 @@ jobs:
           node-version: "12.x"
       - name: install required packages
         run: |
-         sudo apt-get update
-         sudo apt-get install libgbm-dev
-         sudo apt-get install xvfb
+          sudo apt-get update
+          sudo apt-get install libgbm-dev
+          sudo apt-get install xvfb
       - name: INSTALL PACKAGES
         run: |
           npm ci

@@ -1,40 +1,48 @@
 {
-  "name": "playwright-commonjs-cucumberjs-assert",
-  "version": "1.0.0",
-  "description": "Playwright end-to-end test automation boilerplate, using CommonJS, CucumberJS and Assert.",
-  "scripts": {
-    "test": "./node_modules/.bin/cucumber-js",
-    "lint": "npx eslint --ext .js ./ --fix"
-  },
-  "keywords": [
-    "playwright",
-    "commonjs",
-    "cucumber",
-    "assert",
-    "boilerplate",
-    "example"
-  ],
   "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
-  "license": "MIT",
+  "dependencies": {
+    "chromedriver": "80.0.1",
+    "cucumber": "6.0.5",
+    "playwright": "0.11.1"
+  },
+  "description": "Playwright end-to-end test automation boilerplate, using CommonJS, CucumberJS and Assert.",
   "devDependencies": {
     "eslint": "6.8.0",
     "eslint-config-airbnb-base": "14.0.0",
     "eslint-config-prettier": "6.10.0",
     "eslint-plugin-cucumber": "1.4.0",
     "eslint-plugin-import": "2.20.1",
+    "eslint-plugin-json": "^2.1.0",
     "eslint-plugin-prettier": "3.1.2",
     "husky": "4.2.3",
     "prettier": "1.19.1",
     "pretty-quick": "2.0.1"
   },
-  "dependencies": {
-    "chromedriver": "80.0.1",
-    "cucumber": "6.0.5",
-    "playwright": "0.11.1"
-  },
   "husky": {
     "hooks": {
       "pre-commit": "pretty-quick --staged"
     }
-  }
+  },
+  "keywords": [
+    "assert",
+    "boilerplate",
+    "commonjs",
+    "cucumberjs",
+    "e2e",
+    "e2e tests",
+    "example",
+    "integration test",
+    "playwright"
+  ],
+  "license": "MIT",
+  "name": "playwright-commonjs-cucumberjs-assert",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e2e-boilerplates/playwright-commonjs-cucumberjs-assert.git"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber-js",
+    "lint": "npx eslint --ext .js ./ --fix"
+  },
+  "version": "1.0.0"
 }

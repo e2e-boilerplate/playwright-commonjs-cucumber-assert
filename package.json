@@ -36,8 +36,8 @@
     "url": "git+https://github.com/e2e-boilerplates/playwright-commonjs-cucumberjs-assert.git"
   },
   "scripts": {
-    "test": "./node_modules/.bin/cucumber-js",
-    "lint": "npx eslint --ext .js ./ --fix"
+    "lint": "npx eslint --ext .js ./ --fix",
+    "test": "./node_modules/.bin/cucumber-js"
   },
   "version": "1.0.0"
 }

@@ -1,5 +1,5 @@
 {
-  "author": "",
+  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
   "bugs": {
     "url": "https://github.com/e2e-boilerplate/playwright-commonjs-cucumber-assert/issues"
   },
@@ -29,8 +29,13 @@
   },
   "keywords": [
     "assert",
+    "boilerplate",
     "commonjs",
     "cucumber",
+    "e2e",
+    "e2e tests",
+    "example",
+    "integration test",
     "playwright"
   ],
   "license": "MIT",

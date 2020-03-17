@@ -1,4 +1,4 @@
-[![GitHub Actions status | e2e-boilerplate/playwright-commonjs-cucumber-assert](https://github.com/e2e-boilerplate/playwright-commonjs-cucumber-assert/workflows/playwright-commonjs-cucumber-assert/badge.svg)](https://github.com/e2e-boilerplate/playwright-commonjs-cucumber-assert/actions?workflow=playwright-commonjs-cucumber-assert)
+[![GitHub Actions status | e2e-boilerplate/playwright-commonjs-cucumber-assert](https://github.com/e2e-boilerplate/playwright-commonjs-cucumber-assert/workflows/playwright-commonjs-cucumber-assert/badge.svg)](https://github.com/e2e-boilerplate/playwright-commonjs-cucumber-assert/actions?workflow=playwright-commonjs-cucumber-assert) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # Playwright Boilerplate
 

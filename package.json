@@ -1,5 +1,5 @@
 {
-  "author": "",
+  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
   "bugs": {
     "url": "https://github.com/e2e-boilerplate/playwright-commonjs-cucumber-assert/issues"
   },
@@ -17,7 +17,7 @@
     "eslint-plugin-import": "2.20.1",
     "eslint-plugin-prettier": "3.1.2",
     "husky": "4.2.3",
-    "prettier": "1.19.1",
+    "prettier": "2.0.1",
     "pretty-quick": "2.0.1"
   },
   "homepage": "https://github.com/e2e-boilerplate/playwright-commonjs-cucumber-assert#readme",
@@ -28,8 +28,13 @@
   },
   "keywords": [
     "assert",
+    "boilerplate",
     "commonjs",
     "cucumber",
+    "e2e",
+    "e2e tests",
+    "example",
+    "integration test",
     "playwright"
   ],
   "license": "MIT",

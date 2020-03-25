@@ -1,8 +1,8 @@
 name: playwright-commonjs-cucumber-assert
-"on":
+'on':
   push: null
   schedule:
-    - cron: 50 5 1-31/2 * *
+    - cron: 40 4 1-31/2 * *
 jobs:
   build:
     runs-on: ubuntu-latest

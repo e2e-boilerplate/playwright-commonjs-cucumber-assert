@@ -1,0 +1,12 @@
+| referrer                                                                                | count | uniques |
+| :-------------------------------------------------------------------------------------- | :---- | :------ |
+| /e2e-boilerplate/playwright-commonjs-cucumber-assert                                    | 8     | 3       |
+| /e2e-boilerplate/playwright-commonjs-cucumber-assert/actions                            | 5     | 1       |
+| /e2e-boilerplate/playwright-commonjs-cucumber-assert/blob/master/.github/runs_status.md | 3     | 1       |
+| /e2e-boilerplate/playwright-commonjs-cucumber-assert/tree/master/.github                | 2     | 1       |
+| /e2e-boilerplate/playwright-commonjs-cucumber-assert/actions/runs/65677187              | 1     | 1       |
+| /e2e-boilerplate/playwright-commonjs-cucumber-assert/actions/runs/65778773              | 1     | 1       |
+| /e2e-boilerplate/playwright-commonjs-cucumber-assert/actions/runs/66020195              | 1     | 1       |
+| /e2e-boilerplate/playwright-commonjs-cucumber-assert/runs/542823158                     | 1     | 1       |
+| /e2e-boilerplate/playwright-commonjs-cucumber-assert/runs/543009327                     | 1     | 1       |
+| /e2e-boilerplate/playwright-commonjs-cucumber-assert/runs/543090434                     | 1     | 1       |

@@ -4,7 +4,7 @@
     "url": "https://github.com/e2e-boilerplate/playwright-commonjs-cucumber-assert/issues"
   },
   "dependencies": {
-    "chromedriver": "81.0.0",
+    "chromedriver": "83.0.0",
     "cucumber": "6.0.5",
     "playwright": "1.0.2"
   },
@@ -42,6 +42,7 @@
   "license": "MIT",
   "lint-staged": {
     "*.{js,json,md}": [
+      "eslint --fix",
       "prettier --write"
     ]
   },

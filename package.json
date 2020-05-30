@@ -41,7 +41,7 @@
   ],
   "license": "MIT",
   "lint-staged": {
-    "*.{js,json,md}": [
+    "*.{js}": [
       "eslint --fix",
       "prettier --write"
     ]

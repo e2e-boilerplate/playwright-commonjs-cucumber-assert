@@ -4,7 +4,7 @@
     "url": "https://github.com/e2e-boilerplate/playwright-commonjs-cucumber-assert/issues"
   },
   "dependencies": {
-    "chromedriver": "85.0.1",
+    "chromedriver": "87.0.2",
     "cucumber": "6.0.5",
     "playwright": "1.6.2"
   },

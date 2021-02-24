@@ -6,7 +6,7 @@
   "dependencies": {
     "chromedriver": "87.0.7",
     "cucumber": "6.0.5",
-    "playwright": "1.8.1"
+    "playwright": "1.9.0"
   },
   "description": "Playwright end-to-end test automation boilerplate. Using Commonjs, Cucumber and Assert.",
   "devDependencies": {

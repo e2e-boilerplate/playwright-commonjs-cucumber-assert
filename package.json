@@ -10,7 +10,7 @@
   },
   "description": "Playwright end-to-end test automation boilerplate. Using Commonjs, Cucumber and Assert.",
   "devDependencies": {
-    "eslint": "7.25.0",
+    "eslint": "7.26.0",
     "eslint-config-airbnb-base": "14.2.1",
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-cucumber": "1.4.0",
